@@ -522,6 +522,7 @@ pub enum FinishReason {
     ToolCalls,
     ContentFilter,
     FunctionCall,
+    EOS,
 }
 
 #[derive(Debug, Deserialize, Serialize, Clone, PartialEq)]
